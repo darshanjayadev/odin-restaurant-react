@@ -1,0 +1,25 @@
+button[class^="theme"] {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 4px;
+  outline: none;
+}
+
+button[class^="theme"]:hover {
+  opacity: 0.8;
+}
+
+.theme-1 {
+  background: #595959;
+  border: 10px solid #8C8C8C;
+}
+
+.theme-2 {
+  background-color: #726AA5;
+  border: 10px solid #BABDF2;
+}
+
+.theme-3 {
+  background-color: #B13281;
+  border: 10px solid #BABDF2;
+}

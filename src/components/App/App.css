@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   CSS RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----------::CUSTOM STYLING::-----------*/
+
+/* Themes */
+
+html {
+  --background-color: #262626;
+  --font-color: #D8D8D8;
+  --primary-color: #595959;
+  --secondary-color: #8C8C8C;
+}
+
+html[data-theme="theme-1"] {
+  --background-color: #262626;
+  --font-color: #D8D8D8;
+  --primary-color: #595959;
+  --secondary-color: #8C8C8C;
+}
+
+html[data-theme="theme-2"] {
+  --background-color: #4C4272;
+  --font-color: #F2EEBC;
+  --primary-color: #726AA5;
+  --secondary-color: #BABDF2;
+}
+
+html[data-theme="theme-3"] {
+  --background-color: #D85291;
+  --font-color: #E0FBFF;
+  --primary-color: #B13281;
+  --secondary-color: #BABDF2;
+}
+
+/* Global */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  padding: 4rem;
+}
+.description {
+  text-align: center;
+}
+.placeholder {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+.placeholder::before {
+  content: '<'
+}
+.placeholder::after {
+  content: '>';
+}
+
+/* Header */
+
+.main h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.main h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
