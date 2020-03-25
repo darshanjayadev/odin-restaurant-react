@@ -1,52 +1,75 @@
-# Odin Restaurant Project
+# Odin Restaurant React
 
-A React App with tabbed navigation and themes.
+> React app with tabbed navigation and themes.
 
-![Application Screenshot](./screenshot.png)
+[//]: # (Screenshot, Application concept art etc)
+![Screenshot](./screenshot.png)
+
+[//]: # (Live Demo link)
+<p align="center">
+  <a href="https://odin-restaurant-react.netlify.com/">Live Demo</a>
+</p>
 
 ## Built With
 
-- React
+* HTML
+* CSS
+* React
 
-## Live Demo
+## Get Started
 
-[Live Link](https://microverse-themed-restaurant.netlify.com/)
+### Setup
 
-## Getting Started
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-To get a local copy up and running follow these simple example steps.
-
-## Setup
-
-Clone this repository to your machine
+1. Clone this repository.
 
 ```bash
 git clone git@github.com:juzQrios/odin-restaurant-react.git
-cd project-react-calculator
+cd odin-restaurant-react
 ```
 
-## Install
-
-Install dependencies
+2. Install dependencies.
 
 ```bash
 yarn install
 ```
 
-## Start local server
-
-In the project directory, run:
+3. Start the local server.
 
 ```bash
 yarn start
 ```
 
-View the application at [`http://localhost:3000`](http://localhost:3000)
+4. Open `http://localhost:3000/` in a browser.
+
+
+### Tests
+
+While it is a good practice to test code, this project doesn't have any tests right now but I might add them in future.
+
+### Deployment
+
+You can easily deploy this React application using one of the several methods to [Netlify](https://www.netlify.com).
+
+Easiest method being to deploy it from Git by clicking on the "[New site from Git](https://app.netlify.com/start)" button on Netlify dashboard.
+
+## Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to checkout this project's [Kanban board](https://github.com/juzQrios/odin-restaurant-react/projects/1) or [issues page](https://github.com/juzQrios/odin-restaurant-react/issues).
+
+## Acknowledgments
+
+* [Create React App](https://github.com/facebook/create-react-app)
+
+## License
+
+This project is [MIT](./LICENSE) licensed.
 
 ## Authors
 
-👤 **Darshan**
+#### Darshan
 
-- Github: [@juzQrios](https://github.com/juzQrios)
+* GitHub: [@juzQrios](https://github.com/juzQrios)
+* Linkedin: [Darshan J](https://www.linkedin.com/in/jayadevdarshan/)
+* Email: <jayadev.darshan@gmail.com>
