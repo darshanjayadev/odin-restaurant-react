@@ -1,6 +1,6 @@
 # Odin Restaurant React
 
-> React app with tabbed navigation and themes.
+> React app with tabbed navigation and themes. updated!
 
 [//]: # (Screenshot, Application concept art etc)
 ![Screenshot](./screenshot.png)
